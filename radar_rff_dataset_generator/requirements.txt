@@ -1,0 +1,17 @@
+# 雷达RFF数据集生成器依赖包
+
+# 核心依赖
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.3.0
+tqdm>=4.60.0
+pyyaml>=5.4.0
+h5py>=3.0.0
+
+# 机器学习（可选，用于数据加载和训练）
+torch>=1.9.0
+scikit-learn>=0.24.0
+
+# TorchSig（需要从源码安装）
+# cd /path/to/torchsig-main && pip install -e .
+
